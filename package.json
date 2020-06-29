@@ -2,22 +2,12 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "Cloning Youtube with vanilla and NodeJS",
-  "main": "index.js",
   "author": "DM",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damilog/wetube.git"
-  },
-  "bugs": {
-    "url": "https://github.com/damilog/wetube/issues"
-  },
-  "homepage": "https://github.com/damilog/wetube#readme"
+  "scripts" : {
+    "start" : "node index.js" 
+  }
 }
