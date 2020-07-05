@@ -1,13 +1,30 @@
 {
   "name": "wetube",
   "version": "1.0.0",
-  "description": "Cloning Youtube with vanilla and NodeJS",
-  "author": "DM",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js --delay 2"
   },
-  "scripts" : {
-    "start" : "node index.js" 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damilog/wetube.git"
+  },
+  "author": "dami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damilog/wetube/issues"
+  },
+  "homepage": "https://github.com/damilog/wetube#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
