@@ -1,5 +1,6 @@
 import express from "express";
 
-const userRouter = express.Router();
+const videoRouter = express.Router();
 
-export default videoRouter;
+
+export default videoRouter; 
